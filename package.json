@@ -1,0 +1,34 @@
+{
+  "name": "app-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "vitest run",
+    "build:benchmark": "node scripts/build-benchmark.js",
+    "validate:benchmark": "node scripts/build-benchmark.js --validate-only"
+  },
+  "dependencies": {
+    "@auth/mongodb-adapter": "^3.11.3",
+    "@radix-ui/react-dialog": "^1.3.1",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "mongoose": "^9.11.2",
+    "next": "14.2.15",
+    "next-auth": "^5.0.0-beta.32",
+    "pdf-parse": "^2.4.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwind-merge": "^3.7.0",
+    "vitest": "^5.0.4",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
